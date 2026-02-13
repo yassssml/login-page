@@ -32,7 +32,7 @@ export default function App() {
             secureTextEntry
           />
           <TouchableOpacity style={styles.button} activeOpacity={0.8}>
-            <Text style={styles.buttonText}>ENTRAR</Text>
+            <Text style={styles.buttonText}>ENTRAR →</Text>
           </TouchableOpacity>
         </View>
         <TouchableOpacity style={styles.forgotPass}>
