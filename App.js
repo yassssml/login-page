@@ -18,7 +18,7 @@ export default function App() {
         <View style={styles.card}>
           <TextInput
             style={styles.input}
-            placeholder="E-mail"
+            placeholder="seu@email.com"
             value={email}
             onChangeText={setEmail}
             keyboardType="email-address"
@@ -26,7 +26,7 @@ export default function App() {
           />
           <TextInput
             style={styles.input}
-            placeholder="Senha"
+            placeholder="********"
             value={password}
             onChangeText={setPassword}
             secureTextEntry
